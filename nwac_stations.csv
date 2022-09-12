@@ -1,0 +1,48 @@
+Station_Id,Name,Elevation,Location,Start_Date
+1,Alpental Base,3100,Snoqualmie Pass,2014-10-11
+2,Alpental Mid-Mountain,4350,Snoqualmie Pass,2014-12-04
+3,Alpental Summit,5470,Snoqualmie Pass,2014-01-03
+4,Hurricane Ridge,5250,Olympics,2014-09-23
+5,Mt Baker - Heather Meadows,4210,Mt Baker,2014-09-23
+6,Mt Baker - Pan Dome,5020,Mt Baker,2014-09-23
+7,Mazama,2170,Washington Pass,2014-01-01
+8,Washington Pass Base,5450,Washington Pass,2014-09-23
+9,Washington Pass Upper,6680,Washington Pass,2014-09-23
+10,Dirty Face Summit,5980,Lake Wenatchee - Mission Ridge,2014-09-23
+11,Lake Wenatchee,1930,Lake Wenatchee - Mission Ridge,2014-09-23
+12,Berne Snow Camp,2700,Mt Baker,2014-09-23
+13,Stevens Pass - Schmidt Haus,3950,Stevens Pass,2014-09-23
+14,Stevens Pass - Grace Lakes,4800,Stevens Pass,2014-11-28
+17,Stevens Pass - Skyline,5250,Stevens Pass,2014-12-23
+18,Stevens Pass - Skyline,5250,Stevens Pass,2014-12-17
+19,Tumwater Mountain,4180,Lake Wenatchee - Mission Ridge,2014-09-23
+20,Mt Washington,4340,Snoqualmie Pass,2014-08-01
+21,Snoqualmie Pass,3010,Snoqualmie Pass,2014-08-01
+22,Snoqualmie Pass - Dodge Ridge,3760,Snoqualmie Pass,2014-08-01
+23,Snoqualmie Pass - East Shed,3770,Snoqualmie Pass,2014-08-01
+24,Mission Ridge Base,4610,Lake Wenatchee - Mission Ridge,2014-01-01
+25,Mission Ridge Summit,6730,Lake Wenatchee - Mission Ridge,2014-09-23
+26,Mission Ridge Mid-Mountain,5160,Lake Wenatchee - Mission Ridge,2014-09-23
+27,Crystal Green Valley,6230,Mt Rainier,2015-01-12
+28,Crystal Base,4570,Mt Rainier,2014-09-23
+29,Crystal Summit,6830,Mt Rainier,2014-02-02
+30,Sunrise Upper,6880,Mt Rainier,2014-09-23
+31,Sunrise Base,6410,Mt Rainier,2014-04-05
+32,Chinook Pass Summit,6240,Mt Rainier,2014-09-23
+33,Chinook Pass Base,5500,Mt Rainier,2014-09-23
+34,Camp Muir,10110,Mt Rainier,2014-09-23
+35,Paradise,5400,Mt Rainier,2014-09-23
+36,Paradise Wind,5380,Mt Rainier,2014-09-23
+37,White Pass Base,4470,White Pass,2020-10-14
+39,White Pass Upper,5800,White Pass,2014-09-23
+40,Mt St Helens - Coldwater ,3260,Mt St Helens,2014-09-23
+41,Mt Hood Meadows Cascade Express,7300,Mt Hood,2014-01-03
+42,Mt Hood Meadows Blue,6540,Mt Hood,2014-09-23
+43,Mt Hood Meadows Base,5380,Mt Hood,2014-09-23
+44,Timberline Lodge,5880,Mt Hood,2014-09-23
+45,Timberline Magic Mile,6990,Mt Hood,2014-09-23
+46,Ski Bowl Base,3660,Mt Hood,2014-10-30
+47,Ski Bowl Summit,5010,Mt Hood,2015-01-08
+48,Blewett Pass,4100,Lake Wenatchee - Mission Ridge,2014-10-22
+49,White Pass Pigtail Peak,5970,White Pass,2014-09-23
+50,Stevens Pass - Brooks,4800,Stevens Pass,2015-11-26
