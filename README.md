@@ -20,4 +20,4 @@ hurricane_ridge_data = download_historical_data(
 hurricane_ridge_data.head()
 ```
 
-![](backcountry.png)
+![](backcountry.png?raw=true)
