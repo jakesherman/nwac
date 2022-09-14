@@ -153,7 +153,7 @@ def download_historical_data(station_ids=None, station_names=None, years=None,
         assert all([station_id in all_stations["Station_Id"] for station_id in station_ids])
     elif station_names is not None:
         assert isinstance(station_names, list)
-        assert all([station_name in all_stations["Name"] for station_name in station_names])
+        assert all([station_name in list(all_stations["Name"]) for station_name in station_names])
     else:
         station_ids = list(all_stations["Station_Id"].unique())
     if years is not None:
