@@ -2,6 +2,9 @@
 
 A python package for downloading historical NWAC telemetry and forecast data.
 
+<img src="https://57hours.com/wp-content/uploads/2021/10/Heather-Canyon-Double-Black-Diamond-1776x1197.jpg" alt="Perch in a fishtank" width="300"/>
+
+
 ## Install
 
 ```bash
@@ -19,5 +22,3 @@ hurricane_ridge_data = download_historical_data(
 )
 hurricane_ridge_data.head()
 ```
-
-![](backcountry.png?raw=true)
