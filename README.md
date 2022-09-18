@@ -29,5 +29,52 @@ hurricane_ridge_data = nwac.download_historical_data(
     station_names=["Hurricane Ridge"],
     years=[2021, 2022]
 )
-hurricane_ridge_data.head()
 ```
+
+In this example, let's plot daily median snow depth values for the Paradise, Heather Meadows, and Washington Pass Lower stations for 2021:
+
+```python
+%matplotlib inline
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+
+
+# Data
+plotting_data = (
+    download_historical_data(
+        station_names=["Paradise", "Mt Baker - Heather Meadows", "Washington Pass Base"],
+        years=[2021]
+    )
+    .assign(Date=lambda df: pd.to_datetime(df["Date_Time"]).dt.date)
+    .groupby(["Station_Name", "Date"])
+    ["Total_Snow_Depth"]
+    .median()
+    .reset_index()
+    .assign(Date=lambda df: pd.to_datetime(df["Date"]))
+    .rename(columns={"Station_Name":"Station"})
+)
+
+# Plot
+plt.figure(figsize=(16, 7))
+ax = sns.lineplot(data=plotting_data, x="Date", y="Total_Snow_Depth", hue="Station")
+ax.set_title("Median Daily Snow Depth", fontsize=18)
+ax.set(xlabel="Date", ylabel="Snow depth (in)")
+plt.show()
+```
+
+Which produces:
+
+![Daily median snow depth plot](snow_depth_plot.png)
+
+
+## Development
+
+I would welcome any feedback, suggestions, and most importantly contributions! Please feel free to open issues or pull requests here in this repo. To run the current `pytest` unit tests:
+
+```bash
+pytest tests/test_nwac.py
+```
+
+Thanks!
