@@ -4,7 +4,7 @@ A python package for downloading historical Northwest Avalanche Center (NWAC) te
 
 This project is not affiliated with NWAC in any way. Please go to https://nwac.us/ to visit NWAC's website, and if you find their telemetry or forecasts useful please consider donating to them to help their nonprofit mission of providing avalanche information to help keep PNW backcountry users safe.
 
-<img src="https://57hours.com/wp-content/uploads/2021/10/Heather-Canyon-Double-Black-Diamond-1776x1197.jpg" alt="Perch in a fishtank" width="400"/>
+![Backcountry skiers traversing to Illumination Saddle](hood.jpg)
 
 
 ## Install
