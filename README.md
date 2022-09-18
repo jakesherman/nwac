@@ -42,11 +42,13 @@ import seaborn as sns
 
 
 # Data
+nwac_data = nwac.download_historical_data(
+    station_names=["Paradise", "Mt Baker - Heather Meadows", "Washington Pass Base"],
+    years=[2021]
+)
+
 plotting_data = (
-    download_historical_data(
-        station_names=["Paradise", "Mt Baker - Heather Meadows", "Washington Pass Base"],
-        years=[2021]
-    )
+    nwac_data
     .assign(Date=lambda df: pd.to_datetime(df["Date_Time"]).dt.date)
     .groupby(["Station_Name", "Date"])
     ["Total_Snow_Depth"]
