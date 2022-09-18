@@ -46,7 +46,6 @@ nwac_data = nwac.download_historical_data(
     station_names=["Paradise", "Mt Baker - Heather Meadows", "Washington Pass Base"],
     years=[2021]
 )
-
 plotting_data = (
     nwac_data
     .assign(Date=lambda df: pd.to_datetime(df["Date_Time"]).dt.date)
@@ -66,8 +65,6 @@ ax.set(xlabel="Date", ylabel="Snow depth (in)")
 plt.show()
 ```
 
-Which produces:
-
 ![Daily median snow depth plot](snow_depth_plot.png)
 
 
@@ -78,5 +75,11 @@ I would welcome any feedback, suggestions, and most importantly contributions! P
 ```bash
 pytest tests/test_nwac.py
 ```
+
+Ideas for future improvement:
+
+* Downloader for historical avalanche forecasts
+* Out-of-the-box sensible imputation/smoothing (look at the early November snow depths for Paradise above as an example)
+* There are probably plenty of others I have not considered
 
 Thanks!
