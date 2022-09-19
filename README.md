@@ -15,7 +15,7 @@ pip install nwac
 
 ## Usage
 
-To see all of the available weather stations, use the `stations` function:
+To see all of the available weather stations, use the `stations` function to get a Pandas Dataframe of station metadata:
 
 ```python
 import nwac
@@ -31,7 +31,7 @@ hurricane_ridge_data = nwac.download_historical_data(
 )
 ```
 
-In this example, let's plot daily median snow depth values for the Paradise, Heather Meadows, and Washington Pass Lower stations for 2021:
+Here let's plot daily median snow depth values for the Paradise, Heather Meadows, and Washington Pass Base stations for 2021:
 
 ```python
 %matplotlib inline
@@ -79,7 +79,6 @@ pytest tests/test_nwac.py
 Ideas for future improvement:
 
 * Downloader for historical avalanche forecasts
-* Out-of-the-box sensible imputation/smoothing (look at the early November snow depths for Paradise above as an example)
-* There are probably plenty of others I have not considered
+* Out-of-the-box sensible imputation/smoothing (look at the early November snow depths for Paradise above as an example of some obviously wrong data)
 
 Thanks!
