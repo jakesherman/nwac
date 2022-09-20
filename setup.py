@@ -29,7 +29,7 @@ __author__ = 'jakesherman'
 __email__ = 'jake@jakesherman.com'
 __license__ = 'MIT License'
 __copyright__ = '2022 jakesherman'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 setup(
